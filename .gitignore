@@ -22,3 +22,15 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Project-specific ignores
+# Ignore uploaded media and generated HLS segments
+/uploads/
+/uploads/**
+
+# Frontend (Vite) build artifacts and dependencies
+/frontend/node_modules/
+/frontend/dist/
+/frontend/.vite/
+/frontend/.env
+/frontend/.cache
